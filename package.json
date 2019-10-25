@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-paper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amatiash/eslint-config-paper.git"
+    "url": "https://github.com/amatiash/paper-code-style.git"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.4.0",
