@@ -18,8 +18,3 @@ node_modules
 !.idea/inspectionProfiles
 !.idea/webResources.xml
 !.idea/codeStyles
-.idea/codeStyles/
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/jsLibraryMappings.xml
-.idea/misc.xml
