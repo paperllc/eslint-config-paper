@@ -49,18 +49,7 @@ module.exports = {
         // Best Practices
         // ----------------------------------------------------
 
-        'array-callback-return': [
-            'warn',
-            {
-                allowImplicit: true,
-            },
-        ],
-        'consistent-return': 'warn',
         'default-param-last': 'warn',
-        'max-classes-per-file': [
-            'error',
-            1,
-        ],
         'no-alert': 'error',
         'no-case-declarations': 'error',
         'no-else-return': [
@@ -150,7 +139,7 @@ module.exports = {
         ],
         'eol-last': 'error',
         'jsx-quotes': ['warn', 'prefer-double'],
-        quotes: ['warn', 'single', {avoidEscape: true}],
+        quotes: ['warn', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
         'quote-props': ['warn', 'as-needed'],
         'func-style': [
             'error',
@@ -185,10 +174,7 @@ module.exports = {
             'warn',
             'below',
         ],
-        'one-var': [
-            'warn',
-            'consecutive',
-        ],
+        'one-var': ['warn', 'never'],
         'unicode-bom': 'error',
 
         // ECMAScript 6
