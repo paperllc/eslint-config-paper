@@ -5,5 +5,4 @@ import './notification.scss'
 
 // ----------------------------------------------------
 
-export default class Notification extends Noty {
-}
+export default class Notification extends Noty {}

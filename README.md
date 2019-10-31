@@ -1,10 +1,10 @@
-# paper-code-style
+# Paper _code style_
 
 We ask developers to follow coding conventions across all our projects.
 
 **WebStorm** code style and inspections + **ESLint** work hand-in-hand with each other.
 
-**Be sure to reformat code with WebStorm before commit!**
+**Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before commit!**
 
 ## Requirements
 - WebStorm ^2019
@@ -13,7 +13,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i git+ssh://gitlab.com/paper-ai/paper-code-style.git#semver:VERSION -D`
+1. `npm i git+ssh://gitlab.com/paper-ai/eslint-config-paper.git#semver:VERSION -D`
 
 2. Then install peerDependencies:
 
@@ -23,7 +23,15 @@ We ask developers to follow coding conventions across all our projects.
 
 ```json
 {
-    "extends": "./node_modules/paper-code-style"
+    "extends": "paper"
+}
+```
+
+For node environment:
+
+```json
+{
+    "extends": "paper/node"
 }
 ```
 
