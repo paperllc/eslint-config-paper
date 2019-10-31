@@ -13,7 +13,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i git://github.com/amatiash/eslint-config-paper.git#semver:^0.1.0 -D`
+1. `npm i git+ssh://gitlab.com/paper-ai/paper-code-style.git#semver:VERSION -D`
 
 2. Then install peerDependencies:
 
