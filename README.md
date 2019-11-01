@@ -64,6 +64,7 @@ _Inspections:_
 !.idea/inspectionProfiles
 !.idea/webResources.xml
 !.idea/codeStyles
+!.idea/dictionaries
 ```
 
 2. Import code style:
