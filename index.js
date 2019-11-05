@@ -20,7 +20,6 @@ module.exports = {
         // Possible Errors
         // ----------------------------------------------------
 
-        'getter-return': ['error', {allowImplicit: true}],
         'no-async-promise-executor': 'warn',
         'no-compare-neg-zero': 'warn',
         'no-console': [
