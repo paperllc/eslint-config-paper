@@ -8,7 +8,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        ecmaVersion: 2018,
+        ecmaVersion: 2020,
         sourceType: 'module',
     },
     plugins: [
@@ -22,15 +22,7 @@ module.exports = {
 
         'no-async-promise-executor': 'warn',
         'no-compare-neg-zero': 'warn',
-        'no-console': [
-            'warn',
-            {
-                allow: [
-                    'warn',
-                    'error',
-                ],
-            },
-        ],
+        'no-console': 'off',
         'no-control-regex': 'error',
         'no-empty': 'warn',
         'no-empty-character-class': 'error',

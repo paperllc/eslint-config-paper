@@ -5,7 +5,14 @@ module.exports = {
     env: {
         node: true,
     },
-    rules: {
-        'no-console': 'off'
-    }
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: false,
+        },
+        ecmaVersion: 2020,
+        sourceType: 'module',
+    },
+    plugins: [
+        '@typescript-eslint'
+    ],
 }

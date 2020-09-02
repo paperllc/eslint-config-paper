@@ -1,10 +1,12 @@
 # Paper _code style_
 
+**React support enabled by default.**
+
 We ask developers to follow coding conventions across all our projects.
 
 **WebStorm** code style and inspections + **ESLint** work hand-in-hand with each other.
 
-**Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before commit!**
+**Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before a commit!**
 
 ## Requirements
 - WebStorm ^2019
@@ -15,11 +17,7 @@ We ask developers to follow coding conventions across all our projects.
 
 1. `npm i git+ssh://gitlab.com/paper-ai/eslint-config-paper.git#semver:VERSION -D`
 
-2. Then install peerDependencies:
-
-`npm i eslint@^6.5.0 typescript@^3.6.0 eslint-plugin-react@^7.16.0 @typescript-eslint/parser@^2.4.0 @typescript-eslint/eslint-plugin@^2.4.0 -D`
-
-3. In `.eslintrc.json`
+2. In `.eslintrc.json`
 
 ```json
 {
@@ -81,21 +79,6 @@ The selected code style is saved in the .idea directory in the file codeStyleSet
 4. Ensure that WebStorm listens to LOCAL (project level) settings.
 
 ## Additional rules
-
-### Components/modules structure
-
-There is a common way to name main module file `index.js`.
-
-It is inconvenient to work with multiple `index.js` files opened, in the context of one project,
-and search for a specific module, since they are named `index.js`.
-
-There is another approach we used to follow:
-
-**Name the file as its class/folder-name and write path to the main file in `package.json`**.
-
-Examples:
-- [notification module](./examples/modules/notification), 
-- [TodoItem component](./examples/modules/notification).
 
 ### CSS style
 
