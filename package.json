@@ -1,23 +1,18 @@
 {
   "name": "eslint-config-paper",
-  "version": "0.5.0-rc1",
+  "version": "0.5.0-rc2",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/paper-ai/eslint-config-paper.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": ">=2.4.0",
-    "@typescript-eslint/parser": ">=2.4.0",
-    "eslint": ">=6.5.0",
-    "eslint-plugin-react": ">=7.16.0",
-    "typescript": ">=3.6.0"
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.19.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.4.0",
-    "@typescript-eslint/parser": "^2.4.0",
-    "eslint": "^6.5.0",
-    "eslint-plugin-react": "^7.16.0",
     "typescript": "^3.6.0"
   }
 }
