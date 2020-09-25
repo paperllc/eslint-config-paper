@@ -15,7 +15,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i git+ssh://gitlab.com/paper-ai/eslint-config-paper.git#semver:VERSION -D`
+1. `npm i https://gitlab.com/paper-ai/eslint-config-paper.git#semver:VERSION -D`
 
 2. In `.eslintrc.json`
 

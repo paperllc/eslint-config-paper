@@ -1,4 +1,7 @@
 module.exports = {
+    extends: [
+        'react-app',
+    ],
     env: {
         browser: true,
         es6: true,
@@ -16,6 +19,13 @@ module.exports = {
         'react',
     ],
     rules: {
+
+        // Change for react-app
+        // ----------------------------------------------------
+
+        'import/no-webpack-loader-syntax': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        'no-unused-vars': 'off',
 
         // Possible Errors
         // ----------------------------------------------------
