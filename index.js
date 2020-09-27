@@ -26,6 +26,7 @@ module.exports = {
         'import/no-webpack-loader-syntax': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         'no-unused-vars': 'off',
+        'default-case': 'off',
 
         // Possible Errors
         // ----------------------------------------------------
