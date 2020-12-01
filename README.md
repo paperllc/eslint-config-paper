@@ -33,8 +33,6 @@ For node environment:
 }
 ```
 
-`"react": "^17.0.0"` supported
-
 ### WebStorm
 
 #### Existing project
