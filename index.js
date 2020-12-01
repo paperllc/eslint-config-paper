@@ -205,5 +205,10 @@ module.exports = {
         'prefer-numeric-literals': 'error',
         'prefer-rest-params': 'warn',
         'symbol-description': 'error',
+
+        // ----------------------------------------------------
+
+        'react/jsx-uses-react': 'off',
+        'react/react-in-jsx-scope': 'off',
     },
 }

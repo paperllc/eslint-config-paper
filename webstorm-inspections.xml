@@ -1,5 +1,5 @@
 <profile version="1.0">
-    <option name="myName" value="Paper v0.5.0-rc5"/>
+    <option name="myName" value="Paper v0.6.0"/>
     <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
@@ -44,12 +44,13 @@
     <inspection_tool class="JSUndeclaredVariable" enabled="true" level="ERROR" enabled_by_default="true"/>
     <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false"/>
     <inspection_tool class="JSUnresolvedExtXType" enabled="false" level="WARNING" enabled_by_default="false"/>
-    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="WARNING" enabled_by_default="true"/>
     <inspection_tool class="JSUnresolvedLibraryURL" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="JSUnresolvedVariable" enabled="true" level="WARNING" enabled_by_default="true"/>
     <inspection_tool class="JSUnusedAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
+    <inspection_tool class="JSXNamespaceValidation" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="LossyEncoding" enabled="true" level="ERROR" enabled_by_default="true"/>
     <inspection_tool class="MagicNumberJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="NegatedIfStatementJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
