@@ -115,12 +115,17 @@ module.exports = {
 
         'no-label-var': 'error',
         'no-undef-init': 'warn',
-        'no-use-before-define': [
+
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': [
             'error',
             {
                 functions: false,
                 classes: true,
                 variables: true,
+                enums: true,
+                typedefs: true,
+                ignoreTypeReferences: true,
             },
         ],
 
