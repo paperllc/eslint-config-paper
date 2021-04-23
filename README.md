@@ -15,7 +15,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i https://gitlab.com/paper-ai/eslint-config-paper.git#semver:VERSION -D`
+1. `npm i git+https://paperllc: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@github.com/paperllc/eslint-config-paper.git#semver:0.6.4 -D`
 
 2. In `.eslintrc.json`
 
@@ -63,6 +63,8 @@ _Inspections:_
 !.idea/webResources.xml
 !.idea/codeStyles
 !.idea/dictionaries
+!.idea/modules.xml
+!.idea/*.iml
 ```
 
 2. Import code style:

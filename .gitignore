@@ -19,3 +19,5 @@ node_modules
 !.idea/webResources.xml
 !.idea/codeStyles
 !.idea/dictionaries
+!.idea/modules.xml
+!.idea/*.iml
