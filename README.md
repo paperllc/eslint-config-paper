@@ -15,7 +15,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i npm i https://github.com/paperllc/eslint-config-paper.git#semver:0.6.4 -D`
+1. `npm i https://github.com/paperllc/eslint-config-paper.git#semver:0.7.0 -D`
 
 2. In `.eslintrc.json`
 
