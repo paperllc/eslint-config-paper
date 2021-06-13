@@ -137,13 +137,7 @@ module.exports = {
         // Stylistic Issues
         // ----------------------------------------------------
 
-        camelcase: [
-            'error',
-            {
-                properties: 'never',
-                ignoreDestructuring: false,
-            },
-        ],
+        camelcase: 'off',
         'eol-last': 'error',
         'jsx-quotes': ['warn', 'prefer-double'],
         quotes: ['warn', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
