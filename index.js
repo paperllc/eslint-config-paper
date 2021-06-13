@@ -51,7 +51,7 @@ module.exports = {
         // Best Practices
         // ----------------------------------------------------
 
-        'default-param-last': 'warn',
+        'default-param-last': 'off',
         'no-alert': 'error',
         'no-case-declarations': 'error',
         'no-else-return': [
