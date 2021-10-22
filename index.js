@@ -25,6 +25,10 @@ module.exports = {
 
         'import/no-webpack-loader-syntax': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        'no-use-before-define': 'off',
+        'no-redeclare': 'off',
         'no-unused-vars': 'off',
         'default-case': 'off',
 
@@ -115,19 +119,6 @@ module.exports = {
 
         'no-label-var': 'error',
         'no-undef-init': 'warn',
-
-        'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': [
-            'error',
-            {
-                functions: false,
-                classes: true,
-                variables: true,
-                enums: true,
-                typedefs: true,
-                ignoreTypeReferences: true,
-            },
-        ],
 
         // Node.js and CommonJS
         // ----------------------------------------------------
