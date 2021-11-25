@@ -1,5 +1,5 @@
 <profile version="1.0">
-    <option name="myName" value="Paper v0.8.x"/>
+    <option name="myName" value="Paper v0.9.x"/>
     <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
@@ -66,6 +66,10 @@
         <option name="m_limit" value="3"/>
     </inspection_tool>
     <inspection_tool class="RegExpUnnecessaryNonCapturingGroup" enabled="false" level="WARNING" enabled_by_default="false"/>
-    <inspection_tool class="TextLabelInSwitchStatementJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
+    <inspection_tool class="TextLabelInSwitchStatementJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLocalVariableJS" enabled="false" level="WARNING" enabled_by_default="false">
+        <option name="m_ignoreImmediatelyReturnedVariables" value="false"/>
+        <option name="m_ignoreAnnotatedVariables" value="false"/>
+    </inspection_tool>
     <inspection_tool class="WithStatementJS" enabled="true" level="ERROR" enabled_by_default="true"/>
 </profile>
