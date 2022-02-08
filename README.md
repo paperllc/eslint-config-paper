@@ -25,13 +25,9 @@ We ask developers to follow coding conventions across all our projects.
 }
 ```
 
-For node environment:
+**You will extend only the rules.**
 
-```json
-{
-    "extends": "paper/node"
-}
-```
+**You need to configure other option by yourself, as well as installing all the dependencies.**
 
 ### WebStorm
 

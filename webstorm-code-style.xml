@@ -1,4 +1,4 @@
-<code_scheme name="Paper v0.9.x" version="173">
+<code_scheme name="Paper v1.0-beta1" version="173">
     <option name="OTHER_INDENT_OPTIONS">
         <value>
             <option name="INDENT_SIZE" value="2"/>
@@ -12,7 +12,6 @@
     <JSCodeStyleSettings version="0">
         <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false"/>
         <option name="FORCE_SEMICOLON_STYLE" value="true"/>
-        <option name="ALIGN_VAR_STATEMENTS" value="2"/>
         <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false"/>
         <option name="USE_DOUBLE_QUOTES" value="false"/>
         <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline"/>
@@ -27,7 +26,6 @@
     <TypeScriptCodeStyleSettings version="0">
         <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false"/>
         <option name="FORCE_SEMICOLON_STYLE" value="true"/>
-        <option name="ALIGN_VAR_STATEMENTS" value="2"/>
         <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false"/>
         <option name="USE_DOUBLE_QUOTES" value="false"/>
         <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline"/>
@@ -40,7 +38,6 @@
     <XML>
         <option name="XML_ATTRIBUTE_WRAP" value="0"/>
         <option name="XML_ALIGN_ATTRIBUTES" value="false"/>
-        <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true"/>
     </XML>
     <codeStyleSettings language="CSS">
         <option name="KEEP_BLANK_LINES_IN_CODE" value="1"/>

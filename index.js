@@ -1,23 +1,4 @@
 module.exports = {
-    extends: [
-        'react-app',
-    ],
-    env: {
-        browser: true,
-        es6: true,
-    },
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true,
-        },
-        ecmaVersion: 2020,
-        sourceType: 'module',
-    },
-    plugins: [
-        '@typescript-eslint',
-        'react',
-    ],
     rules: {
 
         // Change for react-app
