@@ -1,7 +1,5 @@
 # Paper _code style_
 
-**React support enabled by default.**
-
 We ask developers to follow coding conventions across all our projects.
 
 **WebStorm** code style and inspections + **ESLint** work hand-in-hand with each other.
@@ -21,7 +19,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ```json
 {
-    "extends": "paper"
+    "extends": ["paper"]
 }
 ```
 
@@ -75,31 +73,3 @@ The selected code style is saved in the .idea directory in the file codeStyleSet
 - Select the project level **Paper** profile.
 
 4. Ensure that WebStorm listens to LOCAL (project level) settings.
-
-## Additional rules
-
-### CSS style
-
-Follow classic [BEM methodology](https://en.bem.info/methodology/).
-
-### Visual separator
-
-Use these separators to visually divide pieces of code.
-
-```javascript
-// ----------------------------------------------------
-```
-
-```javascript
-// With comment
-// ----------------------------------------------------
-```
-
-Place the separator after `imports`:
-
-```javascript
-import React, {Component} from 'react'
-import {observer} from 'mobx-react'
-
-// ----------------------------------------------------
-```
