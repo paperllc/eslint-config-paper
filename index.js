@@ -179,6 +179,7 @@ module.exports = {
 
         // ----------------------------------------------------
 
-        'no-restricted-globals': 'off'
+        'no-restricted-globals': 'off',
+        'no-undef': 'off'
     },
 }
