@@ -1,16 +1,17 @@
 module.exports = {
     rules: {
 
-        // Change for react-app
+        // Change for typescript/react-app
         // ----------------------------------------------------
 
         'import/no-webpack-loader-syntax': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        "@typescript-eslint/no-empty-function": "off",
         '@typescript-eslint/no-use-before-define': 'off',
         'no-use-before-define': 'off',
-        'no-redeclare': 'off',
         'no-unused-vars': 'off',
+        'no-redeclare': 'off',
         'default-case': 'off',
 
         // Possible Errors
