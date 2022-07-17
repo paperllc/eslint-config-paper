@@ -17,6 +17,13 @@ module.exports = {
         'no-redeclare': 'off',
         'default-case': 'off',
 
+        // These react rules take too much time
+        "react/display-name": "off",
+        "react/no-direct-mutation-state":"off",
+        "react/require-render-return": "off",
+        "react/no-unknown-property":"off",
+        "react/no-string-refs":"off",
+
         // Possible Errors
         // ----------------------------------------------------
 
