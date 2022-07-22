@@ -4,6 +4,6 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/paper-ai/eslint-config-paper.git"
+    "url": "https://github.com/paperllc/eslint-config-paper.git"
   }
 }
