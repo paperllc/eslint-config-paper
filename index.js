@@ -125,13 +125,7 @@ module.exports = {
         'jsx-quotes': ['warn', 'prefer-double'],
         quotes: ['warn', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
         'quote-props': ['warn', 'as-needed'],
-        'func-style': [
-            'error',
-            'declaration',
-            {
-                allowArrowFunctions: true,
-            },
-        ],
+        'func-style': 'off',
         'linebreak-style': [
             'error',
             'unix',
