@@ -43,6 +43,17 @@ module.exports = {
         'no-regex-spaces': 'warn',
         'no-unsafe-negation': 'warn',
         'require-atomic-updates': 'warn',
+        'no-constant-binary-expression': 'off',
+        'no-constructor-return': 'error',
+        'no-dupe-else-if': 'error',
+        'no-loss-of-precision': 'error',
+        'no-new-native-nonconstructor': 'off',
+        'no-promise-executor-return': 'error',
+        'no-setter-return': 'error',
+        'no-unreachable-loop': 'off', // Covered by WebStorm
+        'no-unsafe-optional-chaining': 'error',
+        'no-unused-private-class-members': 'off', // Covered by WebStorm
+        'no-useless-backreference': 'error',
 
         // Best Practices
         // ----------------------------------------------------
