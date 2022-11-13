@@ -48,7 +48,6 @@ module.exports = {
         'no-dupe-else-if': 'error',
         'no-loss-of-precision': 'error',
         'no-new-native-nonconstructor': 'off',
-        'no-promise-executor-return': 'error',
         'no-setter-return': 'error',
         'no-unreachable-loop': 'off', // Covered by WebStorm
         'no-unsafe-optional-chaining': 'error',
