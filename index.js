@@ -54,6 +54,7 @@ module.exports = {
         'no-unsafe-optional-chaining': 'error',
         'no-unused-private-class-members': 'off', // Covered by WebStorm
         'no-useless-backreference': 'error',
+        'no-sequences': 'error',
 
         // Best Practices
         // ----------------------------------------------------

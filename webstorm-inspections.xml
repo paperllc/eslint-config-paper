@@ -1,10 +1,11 @@
 <profile version="1.0">
-    <option name="myName" value="Paper v1.0-beta13"/>
+    <option name="myName" value="Paper v1.0-beta15"/>
     <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="CallerJS" enabled="true" level="ERROR" enabled_by_default="true"/>
     <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false"/>
+    <inspection_tool class="CommaExpressionJS" enabled="false" level="WARNING" enabled_by_default="false"/>
     <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="true" level="WARNING" enabled_by_default="true"/>
     <inspection_tool class="CssInvalidPropertyValue" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="CssRedundantUnit" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
