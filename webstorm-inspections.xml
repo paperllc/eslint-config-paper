@@ -1,5 +1,5 @@
 <profile version="1.0">
-    <option name="myName" value="Paper v1.0-beta16"/>
+    <option name="myName" value="Paper v1.0-beta17"/>
     <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
@@ -35,6 +35,7 @@
     </inspection_tool>
     <inspection_tool class="HttpUrlsUsage" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
     <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="WARNING" enabled_by_default="true"/>
+    <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
     <inspection_tool class="JSDuplicatedDeclaration" enabled="true" level="ERROR" enabled_by_default="true"/>
     <inspection_tool class="JSJQueryEfficiency" enabled="false" level="WARNING" enabled_by_default="false"/>
     <inspection_tool class="JSLastCommaInArrayLiteral" enabled="false" level="WARNING" enabled_by_default="false"/>
