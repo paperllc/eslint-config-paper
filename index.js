@@ -11,6 +11,7 @@ module.exports = {
         "@typescript-eslint/no-empty-function": "off",
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
+        "@typescript-eslint/consistent-type-imports": "error",
         "react/no-unescaped-entities": "off",
         'no-use-before-define': 'off',
         'no-unused-vars': 'off',
