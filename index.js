@@ -167,6 +167,14 @@ module.exports = {
         'one-var': ['warn', 'never'],
         'unicode-bom': 'error',
         "no-multi-spaces": "error",
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "never",
+                "prev": "import",
+                "next": "import"
+            }
+        ],
 
         // ECMAScript 6
         // ----------------------------------------------------
