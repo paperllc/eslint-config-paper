@@ -20,10 +20,10 @@ module.exports = {
 
         // These react rules take too much time
         "react/display-name": "off",
-        "react/no-direct-mutation-state":"off",
+        "react/no-direct-mutation-state": "off",
         "react/require-render-return": "off",
-        "react/no-unknown-property":"off",
-        "react/no-string-refs":"off",
+        "react/no-unknown-property": "off",
+        "react/no-string-refs": "off",
 
         // Possible Errors
         // ----------------------------------------------------
@@ -166,6 +166,7 @@ module.exports = {
         ],
         'one-var': ['warn', 'never'],
         'unicode-bom': 'error',
+        "no-multi-spaces": "error",
 
         // ECMAScript 6
         // ----------------------------------------------------
@@ -197,6 +198,6 @@ module.exports = {
         // ----------------------------------------------------
 
         'no-restricted-globals': 'off',
-        'no-undef': 'off'
+        'no-undef': 'off',
     },
 }
