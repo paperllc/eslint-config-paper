@@ -7,13 +7,13 @@ We ask developers to follow coding conventions across all our projects.
 **Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before a commit!**
 
 ## Requirements
-- WebStorm ^2019
+- WebStorm ^2022
 
 ## Install
 
 ### ESLint
 
-1. `npm i https://github.com/paperllc/eslint-config-paper.git#semver:x.x.x -D`
+1. `npm i https://github.com/paperllc/eslint-config-paper.git#{{commithash}} -D`
 
 2. In `.eslintrc.json`
 
@@ -25,7 +25,7 @@ We ask developers to follow coding conventions across all our projects.
 
 **You will extend only the rules.**
 
-**You need to configure other option by yourself, as well as installing all the dependencies.**
+**You need to configure other options by yourself, as well as installing all the dependencies.**
 
 ### WebStorm
 
@@ -45,31 +45,19 @@ _Inspections:_
 
 #### New project or a project without this setup
 
-1. Add this to `.gitignore`, to commit local JetBrains settings:
-
-```gitignore
-# JetBrains
-.idea/*
-!.idea/encodings.xml
-!.idea/jsLibraryMappings.xml
-!.idea/misc.xml
-!.idea/inspectionProfiles
-!.idea/webResources.xml
-!.idea/codeStyles
-!.idea/dictionaries
-!.idea/modules.xml
-!.idea/*.iml
-```
+1. Add generated `.gitignore` using TopTal gitignore generator: https://www.toptal.com/developers/gitignore/api/git,node,macos,webstorm
+    
+    Include "webstorm" into the list.
 
 2. Import code style:
-- **Import** `webstorm-code-style.xml` scheme;
-- Then **Copy to Project** (this option to store the selected scheme in a project level.
-The selected code style is saved in the .idea directory in the file codeStyleSettings.xml);
-- Select the project level scheme.
+   - **Import** `webstorm-code-style.xml` scheme;
+   - Then **Copy to Project** (this option to store the selected scheme in a project level.
+   The selected code style is saved in the .idea directory in the file codeStyleSettings.xml);
+   - Select the project level scheme.
 
 3. Import inspections
-- **Import** `webstorm-inspections.xml` profile;
-- Select imported profile and copy it to project level;
-- Select the project level **Paper** profile.
+   - **Import** `webstorm-inspections.xml` profile;
+   - Select imported profile and copy it to project level;
+   - Select the project level **Paper** profile.
 
 4. Ensure that WebStorm listens to LOCAL (project level) settings.
