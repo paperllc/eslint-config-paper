@@ -1,22 +1,25 @@
 module.exports = {
+    "plugins": [
+        "@typescript-eslint",
+    ],
     rules: {
 
-        // Change for typescript/react-app
+        // Change for typescript (dependency required)
+        // ----------------------------------------------------
+
+        "@typescript-eslint/consistent-type-imports": "error",
+
+        // Switch off some external rules if used
         // ----------------------------------------------------
 
         'import/no-webpack-loader-syntax': 'off',
+
         '@typescript-eslint/no-redeclare': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         "@typescript-eslint/no-empty-function": "off",
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
-        "@typescript-eslint/consistent-type-imports": "error",
-        "react/no-unescaped-entities": "off",
-        'no-use-before-define': 'off',
-        'no-unused-vars': 'off',
-        'no-redeclare': 'off',
-        'default-case': 'off',
 
         // These react rules take too much time
         "react/display-name": "off",
@@ -24,6 +27,10 @@ module.exports = {
         "react/require-render-return": "off",
         "react/no-unknown-property": "off",
         "react/no-string-refs": "off",
+
+        "react/no-unescaped-entities": "off",
+        'react/jsx-uses-react': 'off',
+        'react/react-in-jsx-scope': 'off',
 
         // Possible Errors
         // ----------------------------------------------------
@@ -200,12 +207,11 @@ module.exports = {
 
         // ----------------------------------------------------
 
-        'react/jsx-uses-react': 'off',
-        'react/react-in-jsx-scope': 'off',
-
-        // ----------------------------------------------------
-
         'no-restricted-globals': 'off',
         'no-undef': 'off',
+        'no-use-before-define': 'off',
+        'no-unused-vars': 'off',
+        'no-redeclare': 'off',
+        'default-case': 'off',
     },
 }
