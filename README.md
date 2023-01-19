@@ -1,4 +1,4 @@
-# Paper _code style_
+# Paper _code style_ and _inspections_
 
 We ask developers to follow coding conventions across all our projects.
 
@@ -31,33 +31,25 @@ We ask developers to follow coding conventions across all our projects.
 
 #### Existing project
 
-Specific files in `.idea` folder are committed, that is why coding conventions are scoped to the project.
+Specific files in `.idea` folder are committed, that is why coding conventions are scoped to the project and should already be applied.
 
-Ensure that WebStorm listens to them:
-
-_Code style:_
-
-![Code style](images/1-code-style.png)
-
-_Inspections:_
-
-![Inspections](images/2-inspections.png)
-
-#### New project or a project without this setup
+#### New project, a project without this setup, or you need to update it
 
 1. Add generated `.gitignore` using TopTal gitignore generator: https://www.toptal.com/developers/gitignore/api/git,node,macos,webstorm
     
     Include "webstorm" into the list.
 
 2. Import code style:
+   ![Import code style](ws-import-code-style.gif)
    - **Import** `webstorm-code-style.xml` scheme;
    - Then **Copy to Project** (this option to store the selected scheme in a project level.
    The selected code style is saved in the .idea directory in the file codeStyleSettings.xml);
    - Select the project level scheme.
 
 3. Import inspections
+   ![Import inspections](ws-import-inspections.gif)
    - **Import** `webstorm-inspections.xml` profile;
    - Select imported profile and copy it to project level;
-   - Select the project level **Paper** profile.
+   - Select the project level **Paper Inspections n** profile.
 
 4. Ensure that WebStorm listens to LOCAL (project level) settings.
