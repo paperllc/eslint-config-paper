@@ -13,7 +13,7 @@ We ask developers to follow coding conventions across all our projects.
 
 ### ESLint
 
-1. `npm i https://github.com/paperllc/eslint-config-paper.git#{{commithash}} -D`
+1. `npm i https://github.com/paperllc/eslint-config-paper.git{{#semver:^1.2.0|#commithash}} -D`
 
 2. In `.eslintrc.json`
 
