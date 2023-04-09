@@ -1,5 +1,5 @@
 <profile version="1.0">
-    <option name="myName" value="Paper Inspections 2"/>
+    <option name="myName" value="Paper Inspections 3"/>
     <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
     <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="WEAK WARNING" enabled_by_default="false"/>
@@ -26,6 +26,7 @@
         <option name="useSeverityFromConfigFile" value="false"/>
     </inspection_tool>
     <inspection_tool class="ExceptionCaughtLocallyJS" enabled="false" level="WARNING" enabled_by_default="false"/>
+    <inspection_tool class="GrazieInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO"/>
     <inspection_tool class="HtmlUnknownAnchorTarget" enabled="true" level="WEAK WARNING" enabled_by_default="true"/>
     <inspection_tool class="HtmlUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false">
         <option name="myValues">
