@@ -4,16 +4,16 @@ We ask developers to follow coding conventions across all our projects.
 
 **WebStorm** code style and inspections + **ESLint** work hand-in-hand with each other.
 
-**Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before a commit!**
+**Be sure to `Fix ESLint Problems`, and `Reformat code` with WebStorm before commit!**
 
 ## Requirements
-- WebStorm ^2022
+- Latest versions of WebStorm
 
 ## Install
 
 ### ESLint
 
-1. `npm i https://github.com/paperllc/eslint-config-paper.git{{#semver:^1.2.0|#commithash}} -D`
+1. `npm i https://github.com/paperllc/eslint-config-paper.git{{#semver:^x.x.x|#commithash}} -D`
 
 2. In `.eslintrc.json`
 
@@ -25,7 +25,7 @@ We ask developers to follow coding conventions across all our projects.
 
 **You will extend only the rules.**
 
-**You need to configure other options by yourself, as well as installing all the dependencies.**
+**You need to configure other options by yourself, as well as installing all the dependencies, unless you are working in an existing project with this setup.**
 
 ### WebStorm
 
@@ -35,9 +35,7 @@ Specific files in `.idea` folder are committed, that is why coding conventions a
 
 #### New project, a project without this setup, or you need to update it
 
-1. Add generated `.gitignore` using TopTal gitignore generator: https://www.toptal.com/developers/gitignore/api/git,node,macos,webstorm
-    
-    Include "webstorm" into the list.
+1. Add generated `.gitignore` using TopTal gitignore generator: https://www.toptal.com/developers/gitignore/api/webstorm+iml,node,git,windows,linux,macos
 
 2. Import code style:
    ![Import code style](ws-import-code-style.gif)
