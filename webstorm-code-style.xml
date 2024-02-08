@@ -1,4 +1,4 @@
-<code_scheme name="Paper Code Style 5" version="173">
+<code_scheme name="Paper Code Style 6" version="173">
     <option name="OTHER_INDENT_OPTIONS">
         <value>
             <option name="INDENT_SIZE" value="2" />
@@ -22,7 +22,7 @@
         <option name="USE_DOUBLE_QUOTES" value="false" />
         <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
         <option name="JSX_ATTRIBUTE_VALUE" value="Based on type" />
-        <option name="OBJECT_LITERAL_WRAP" value="1" />
+        <option name="OBJECT_LITERAL_WRAP" value="0" />
         <option name="IMPORTS_WRAP" value="0" />
         <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
         <option name="SPACES_WITHIN_IMPORTS" value="true" />
@@ -39,7 +39,7 @@
         <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
         <option name="JSX_ATTRIBUTE_VALUE" value="Based on type" />
         <option name="USE_IMPORT_TYPE" value="ALWAYS" />
-        <option name="OBJECT_LITERAL_WRAP" value="1" />
+        <option name="OBJECT_LITERAL_WRAP" value="0" />
         <option name="IMPORTS_WRAP" value="0" />
         <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
         <option name="SPACES_WITHIN_IMPORTS" value="true" />
@@ -85,7 +85,6 @@
         <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
         <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
         <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-        <option name="FOR_STATEMENT_WRAP" value="2" />
         <option name="IF_BRACE_FORCE" value="3" />
         <option name="DOWHILE_BRACE_FORCE" value="3" />
         <option name="WHILE_BRACE_FORCE" value="3" />
