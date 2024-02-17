@@ -90,7 +90,6 @@ module.exports = {
         'no-extend-native': 'error',
         'no-extra-bind': 'warn',
         'no-extra-label': 'warn',
-        'no-floating-decimal': 'warn',
         'no-global-assign': 'error',
         'no-implied-eval': 'error',
         'no-iterator': 'error',
@@ -109,13 +108,6 @@ module.exports = {
             'error',
             {
                 allowEmptyReject: true,
-            },
-        ],
-        'wrap-iife': [
-            'warn',
-            'inside',
-            {
-                functionPrototypeMethods: true,
             },
         ],
         yoda: 'warn',
@@ -140,15 +132,7 @@ module.exports = {
         // ----------------------------------------------------
 
         camelcase: 'off',
-        'eol-last': 'error',
-        'jsx-quotes': ['warn', 'prefer-double'],
-        quotes: ['warn', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
-        'quote-props': ['warn', 'as-needed'],
         'func-style': 'off',
-        'linebreak-style': [
-            'error',
-            'unix',
-        ],
         'new-cap': [
             'warn',
             {
@@ -167,26 +151,12 @@ module.exports = {
         ],
         'no-lonely-if': 'warn',
         'no-multi-assign': 'error',
-        'nonblock-statement-body-position': [
-            'warn',
-            'below',
-        ],
         'one-var': ['warn', 'never'],
         'unicode-bom': 'error',
-        "no-multi-spaces": "error",
-        "padding-line-between-statements": [
-            "error",
-            {
-                "blankLine": "never",
-                "prev": "import",
-                "next": "import"
-            }
-        ],
 
         // ECMAScript 6
         // ----------------------------------------------------
 
-        'arrow-parens': 'warn',
         'object-shorthand': [
             'warn',
             'always',
@@ -213,5 +183,52 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-redeclare': 'off',
         'default-case': 'off',
+
+        // Stylistic deprecated
+        // ----------------------------------------------------
+
+        "arrow-parens": "warn",
+        "eol-last": "error",
+        "jsx-quotes": [
+            "warn",
+            "prefer-double",
+        ],
+        "linebreak-style": [
+            "error",
+            "unix",
+        ],
+        "no-floating-decimal": "warn",
+        "no-multi-spaces": "error",
+        "nonblock-statement-body-position": [
+            "warn",
+            "below",
+        ],
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "never",
+                "prev": "import",
+                "next": "import",
+            },
+        ],
+        "quote-props": [
+            "warn",
+            "as-needed",
+        ],
+        "quotes": [
+            "warn",
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true,
+            },
+        ],
+        "wrap-iife": [
+            "warn",
+            "inside",
+            {
+                "functionPrototypeMethods": true,
+            },
+        ],
     },
 }
