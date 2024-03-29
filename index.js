@@ -1,3 +1,4 @@
+// noinspection ES6ConvertModuleExportToExport
 module.exports = {
     "plugins": [
         "@typescript-eslint",
