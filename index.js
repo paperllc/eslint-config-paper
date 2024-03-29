@@ -69,12 +69,7 @@ module.exports = {
         'default-param-last': 'off',
         'no-alert': 'error',
         'no-case-declarations': 'error',
-        'no-else-return': [
-            'warn',
-            {
-                allowElseIf: false,
-            },
-        ],
+        'no-else-return': 'warn',
         'no-empty-function': [
             'warn',
             {
