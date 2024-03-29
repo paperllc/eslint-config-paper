@@ -35,7 +35,7 @@ Specific files in `.idea` folder are committed, that is why coding conventions a
 
 #### New project, a project without this setup, or you need to update it
 
-1. Add generated `.gitignore` using TopTal gitignore generator: https://www.toptal.com/developers/gitignore/api/webstorm+iml,node,git,windows,linux,macos
+1. Add generated `.gitignore` using [TopTal generator](https://www.toptal.com/developers/gitignore/api/git,node,linux,macos,windows,webstorm)
 
 2. Import code style:
    ![Import code style](ws-import-code-style.gif)
