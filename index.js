@@ -226,5 +226,6 @@ module.exports = {
                 "functionPrototypeMethods": true,
             },
         ],
+        "object-curly-spacing": ["error", "never"],
     },
 }
