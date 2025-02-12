@@ -73,7 +73,4 @@
     </LinkMapSettings>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="SqlDialectMappings">
-    <file url="PROJECT" dialect="MySQL" />
-  </component>
 </project>
